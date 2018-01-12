@@ -85,7 +85,6 @@ public class MAIN_ extends JFrame {
 	// system.println(distance(32.9697, -96.80322, 29.46786, -98.53506, "N") + "
 	// Nautical Miles\n");
 
-	// *********************************************************************************************************
 
 	private static final double DEFAULT_PRECISION = 1E5;
 	private static JTextField textField;
@@ -145,7 +144,6 @@ public class MAIN_ extends JFrame {
 		return track;
 	}
 
-	// *********************************************************************************************************
 
 	// THE FOLLOWING FUNCTION IMPLEMENTS THE OVERLAPPING ROUTES MATCHING ALGORITHM
 	private void third(String start_address, String end_address) {
@@ -171,7 +169,6 @@ public class MAIN_ extends JFrame {
 		}
 
 	}
-	// *********************************************************************************************************
 
 	// THE FOLLOWING FUNCTUON RETURNS THE SET OF CORRDINATES BETWEEN TWO POINTS
 	private List<ICoordinate> get_coordinates(String start_address, String end_address) {
@@ -264,7 +261,6 @@ public class MAIN_ extends JFrame {
 	static Coordinate common_start;
 	static Coordinate common_end;
 
-	// *********************************************************************************************************
 
 	// THE FOLLOWING FUNCTION IMPLEMENTS THE PARTIAL ROUTE MATCHING
 
@@ -291,7 +287,6 @@ public class MAIN_ extends JFrame {
 
 	}
 
-	// *********************************************************************************************************
 
 	// THE FOLLOWING FUNCTION RETURNS THE TIME OF COMMON MEETING OF TWO USERS
 
@@ -383,7 +378,7 @@ public class MAIN_ extends JFrame {
 
 	}
 
-	// *********************************************************************************************************
+	// 
 
 	// THE FOLLOWINF FUNCTION RETURNS TRUW IF THE TIME MATCHED FOR THE TWO USERS,
 	// ELSE FALSE
@@ -423,7 +418,7 @@ public class MAIN_ extends JFrame {
 
 	}
 
-	// *********************************************************************************************************
+	// 
 
 	// THE FOLLOWING FUNCTION RETURNS THE CONVERTED DISTANCE IN KILOMETERS BETWEEN
 	// TWO POINTS
@@ -630,7 +625,7 @@ public class MAIN_ extends JFrame {
 
 	}
 
-	// *********************************************************************************************************
+	// 
 
 	// THE FOLLOWING FUNCTION DRAWS THE SHARED ROUTE WHICH THEY WILL BE TAKING IF
 	// THEY SHARE THE JOURNEY.
@@ -758,7 +753,6 @@ public class MAIN_ extends JFrame {
 			// hopefully");
 			// System.out.println("This is d1" + d22);
 			// System.out.println("This is the actual distance" + t22);
-			// *******************
 			String JSON3 = IOUtils.toString(new URL(url1));
 			geocode3 = (JSONObject) JSONValue.parseWithException(JSON3);
 
@@ -883,7 +877,6 @@ public class MAIN_ extends JFrame {
 		}
 
 	}
-	// *********************************************************************************************************
 
 	// THIS IS WHERE THE WHOLE FILE IS CONNECTED TO USER INTERFACE
 
@@ -1312,7 +1305,6 @@ public class MAIN_ extends JFrame {
 		contentPane.add(lblApp);
 	}
 
-	// *********************************************************************************************************
 	// THE MAIN METHOD
 	public static void main(String[] args) {
 
